@@ -1,0 +1,53 @@
+{% extends "home.html" %} 
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} Home {% endblock %}</title>
+
+    
+       
+    
+  
+</head>
+<body>
+
+   
+    {% block content %}
+
+
+    
+    <ul>
+        {% for item in mi_lista %}
+            <li>
+                <label for="">{{item.nombre}}</label>
+                <label for="">{{item.apellido}}</label>
+                <span class="{% if item.edad >= 0 and item.edad <= 17 %} rojo {% elif item.edad >= 18 and item.edad >= 34 %} naja {% endif %}">{{item.edad}}</span>
+                <span>{{item.estado}}</span>
+                <span>{{item.email}}</span>
+                <label for="">{{item.contrasna}}</label>
+            </li>
+            <li>{{resultado}}</li>
+        
+
+        {% endfor %}
+
+    </ul>
+
+
+    <!-- <uL>
+        {% for product in mi_lista %}
+            <li>{{forloop.counter}}.{{product}}</li>
+    </uL>
+
+    {% endfor %} -->
+
+
+    
+
+    {% endblock %}
+</body>
+</html>

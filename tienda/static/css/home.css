@@ -1,0 +1,807 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}  
+
+
+.header{
+    background-color: #ffffff;
+    height: 20vh;
+    
+}
+
+.cotenedor-principal{
+    background-color:#121212fb;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    font-size: 14px;
+    
+  
+  }
+  .barra-left{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    line-height: 50px;
+
+    align-items: center;
+
+  }
+  .barra-right{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    width: 100%;
+  
+  }
+
+ 
+ .top-bar-currency-language >li{
+    left: 20%;
+    position: relative;
+ }
+
+ 
+  .top-bar-currency-language{
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  .barra-right{
+    left: 50%;
+  }
+.barra-right-center{
+    display: flex;
+    margin-left: 40%;
+    line-height: 44px;
+    text-decoration: none;
+    list-style: none;
+    
+    
+}
+
+
+
+.top-bar-currency-language >li {
+    text-decoration: none;
+    list-style: none;
+
+
+    color: #7f7f7f;
+   
+
+}
+.top-bar-acc {
+
+    display: flex;
+    gap: 20px;
+    color: white;
+    
+   
+}
+.top-bar-acc >li{
+
+    text-decoration: none;
+    list-style: none;
+}
+.top-bar-acc >li >a {
+color: white;
+}
+
+.top-bar-currency-language a,
+.top-bar-acc a {
+    color: #ffffff; /* Color del texto */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+
+
+
+
+
+
+.currency-dropdown ul,
+.language-dropdown ul {
+    padding: 0; /* Elimina el padding por defecto en la lista */
+    margin-left: 30px; /* Elimina el margen por defecto en la lista */
+}
+
+.currency-dropdown li,
+.language-dropdown li {
+    /* display: block; */
+    padding: 0px 4px; /* Ajusta el padding para reducir el espacio interno */
+    border-bottom: 1px solid #ccc; /* Borde inferior de los ítems del menú */
+    margin: 0; /* Elimina el margen para los ítems del menú */
+   
+}
+
+
+
+
+
+.menu1,
+.menu{
+    text-decoration: none;
+     
+    /* text-align: end; */
+     display: none; 
+    /* background-color: aqua; */
+    list-style: none;   
+    /* width: 70px; */
+   
+    position: absolute;
+   
+}
+
+
+
+
+.menu1{
+    position: absolute;
+    left: 30px;
+}
+.menu1>li>a,
+.menu>li>a{
+    color: #7f7f7f;
+   
+}
+
+.menu1>li,
+.menu>li{
+    background-color: #ffffff;
+    
+}
+.menu1>li>a:hover,
+.menu >li >a:hover{
+    color: #c79d82;
+   
+    
+}
+a:hover{
+    color: #c79d82;
+
+}
+
+.top-bar-acc >li>a:hover{
+    color: #c79d82;
+ 
+}
+
+a{
+    font-size: 12px;
+    color: white;
+}
+
+.top-bar-currency-language >li:hover .menu1{
+    display: block;
+   
+  
+}
+
+.top-bar-currency-language >li:hover .menu{
+    display: block;
+    z-index: 10;
+  
+}
+
+.top-bar-link {
+    text-decoration: none;
+    border: none;
+    list-style: none;  
+    
+}
+
+
+
+
+
+
+.nav{
+    display: flex;
+     justify-content: space-around;   
+     /* line-height: 70px; */
+   padding-top: 40px;
+ 
+}
+
+
+
+
+.logo >a >img{
+    width: 105px;
+    height: 19px;
+    /* padding-top: 40px;  */
+
+}
+
+.lupa{
+  width: 20px;
+}
+/* .icono{
+    display: flex;
+} */
+.icono-lista{
+    display: flex;
+    
+   
+    
+}
+
+.lista-ultima{
+    display:flex ;
+    gap: 30px;
+  
+    
+    list-style: none;  
+
+   
+}
+.lista-ultima li>a{
+    text-decoration: none;
+}
+
+.lista-ultima-a{
+    color: #000000;
+    list-style: none;  
+}
+
+
+/* .sidebar{
+    display: flex;
+    padding-top: 30px; 
+    width: 100%;
+} */
+
+.titulo-menu:hover{
+
+    color: #c79d82;
+}
+
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+    
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #000000;
+	text-decoration: none;
+   
+    
+}
+
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+    /* top: 162px; */
+    background-color: #171717;
+  
+    z-index: 5;
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+   
+}
+
+/* .menu-vertical li:hover{
+	background-color: black;
+} */
+
+.menu-vertical li a{
+	display: block;
+	color: #5a5a5a;
+	text-decoration: none;
+	 padding: 15px 15px ; 
+     
+
+    /* ojo */
+}
+
+.menu-vertical > li > a:hover{
+    color: #ffffff;
+    transition: 1s;
+}
+
+
+ .megamenu{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    left: 0px;
+    display: none;
+    z-index: 5;
+}
+
+.row,
+.mega_container{
+    display: flex;
+    color: #ffffff;
+
+
+    justify-content: center;
+
+    z-index: 5;
+
+}
+
+.item{
+    text-decoration: none;
+    padding:  40px 100px 30px 30px;
+}
+
+
+.item >ul >li{
+    text-decoration: none;
+    list-style: none;  
+
+}
+
+.item >ul >li>a{
+    text-decoration: none;
+    list-style: none; 
+    padding:  5px; 
+
+}
+
+.item >ul >li>a:hover{
+    color: #ffffff;
+    transition: 1s;
+
+}
+
+
+.section-1{
+    width: 100%;
+   
+    
+}
+
+
+
+
+.carrusel {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    position: relative; /* Asegura que los elementos absolutamente posicionados se coloquen correctamente */
+   
+  
+}
+
+
+
+
+
+
+
+
+.imagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: end; */
+    position: relative; /* Permite a los elementos absolutamente posicionados dentro de .imagenes */
+    z-index: 1; /* Asegura que .imagenes está debajo de los botones de navegación */
+    height: 50px;
+}
+
+.img {
+    /* margin: 5px; */
+    object-fit: cover;
+    filter: saturate(175%);
+    filter: brightness(0.7);
+    transition: transform 1s ease-in-out;
+   
+    
+}
+
+.texto {
+   
+    position: absolute;
+    
+  
+    top: 200px;
+    align-items: center;
+    justify-content: center;
+    z-index: 5; /* Asegura que el texto está encima de las imágenes */
+    color: #ffffff;
+    font-size: 40px;
+
+}
+
+
+
+.texto-botones {
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    left: 40%;
+}
+
+.comprar {
+   
+    background-color: #c79d82;
+    color: #ffffff;
+    border: none;
+    padding: 20px 50px;
+    margin: 5px;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 5;
+}
+
+.comprar:hover {
+    background-color: #a67b5b;
+}
+
+.texto-botones button {
+    margin: 5px;
+}
+
+
+
+
+
+/* .imagenes .texto {
+    width: 600px;
+    height: 100px;
+    transition: 1s;
+} */
+
+/* .imagenes:hover .texto {
+    transition: height 1s, transform 1s, background-color 1s;
+    transform: translateY(-150px);
+    height: 300px;
+    background-color: rgba(63, 106, 138, 0.71);
+} */
+
+/* .imagenes:hover .texto p {
+    transition: font-size 0s .2s linear;
+    font-size: 23px;
+    font-weight: 300;
+    text-shadow: 0px 0px 10px #000000;
+} */
+
+.atras, .adelante {
+    position: absolute; /* Posiciona los botones en relación con el contenedor .carrusel */
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 3; /* Asegura que los botones están encima de todos los otros elementos */
+    
+    
+}
+
+.atras {
+    left: 10px;
+}
+
+.adelante {
+    right: 10px;
+}
+
+.atras img, .adelante img {
+    width: 30px; /* Ajusta el tamaño del botón según tus necesidades */
+    height: auto;
+}
+
+
+/* .carrusel:hover .atras, .carrusel:hover .adelante {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.atras, .adelante {
+    opacity: 0; 
+    transform: scale(0.8);
+} */
+
+.puntos{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    bottom: 10%;
+   
+}
+
+.puntos p{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: -50px;
+   
+    color: rgba(255, 255, 255, 0.667);
+    
+}
+
+.puntos .bold{
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #c79d82;
+   
+}
+
+
+.section-2{
+    display: flex;
+    justify-content: center; 
+    /* padding: 40px ; */
+    /* height: 90vh;  */
+    width: 100%; 
+    align-items: center;
+    flex-direction: row; 
+     margin-top: 30px; 
+   
+}
+
+.collection-1{
+    padding: 20px;
+    position: relative;
+    width: 300px;
+    height: 450px;
+   
+    
+
+}
+
+.collection-txt{
+    position: absolute;
+    top: 190px;
+    left: 100px;
+    color: white;
+    z-index: 3; /* Asegura que el texto esté encima de la imagen */
+}
+
+.collection-img{
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+    object-fit: cover;
+    transition: transform 0.5s 
+    
+   
+  
+   
+}
+
+
+
+.collection-img img{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+
+  transition: transform 0.7s ease;
+  filter: brightness(0.7);
+
+}
+
+.collection-img:hover img{
+    transform: scale(1.1);
+    /* transition: 0.7s; */
+    
+    
+}
+
+.encabezado{
+    width: 100%;
+    height: 40px;
+    /* margin: 25px; */
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+
+    padding-top: 20px;
+} 
+
+
+
+
+
+
+
+.raya1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+   padding-top: 20px;
+}
+
+
+
+
+.raya {
+    border: none;          
+    height: 2px;              
+    background-color: #333333b1;  
+          
+    width: 60px;            
+       
+    align-self: center;  
+   
+     right: 50px;
+     display: flex;
+     
+}
+
+
+
+.section-3{
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+
+   
+    flex-wrap: wrap; /* Permite que los elementos se ajusten a la siguiente línea si es necesario */
+    gap: 20px; /* Espacio entre los elementos */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    padding: 20px;
+    box-sizing: border-box;
+/* 
+    align-items: center; */
+
+}
+
+
+
+
+
+/* Efecto hover para la tarjeta */
+.collection-2:hover {
+    transform: scale(1.0); /* Aumenta el tamaño ligeramente al pasar el ratón */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta la sombra al pasar el ratón */
+}
+
+/* Contenedor de la imagen */
+.collection-2-img {
+    position: relative;
+    width: 40vh;
+     height: 100%;
+}
+
+/* Estilo para la imagen del producto */
+.collection-2-img img {
+    width: 100%; /* Imagen llena el ancho del contenedor */
+    height: 100%; /* Imagen llena la altura del contenedor */
+    object-fit: cover; /* Mantiene la proporción y cubre el contenedor */
+    transition: opacity 0.3s ease; /* Transición suave para el hover */
+}
+
+/* Fondo difuminado y opacidad de la imagen al pasar el ratón */
+.collection-2:hover .collection-2-img img {
+    filter: brightness(0.5);  /* Reduce la opacidad de la imagen al pasar el ratón */
+}
+
+/* Contenedor del texto y el botón, que se muestra al pasar el ratón */
+.collection-2-txt {
+    position: absolute;
+    bottom: 170px; /* Coloca el texto en la parte inferior */
+    left: 0;
+    right: 0;
+    
+    color: #fff; /* Color del texto blanco */
+    padding: 20px; /* Espaciado interno del contenedor */
+    opacity: 0; /* Inicialmente oculto */
+    transition: opacity 0.3s ease; /* Transición suave para el hover */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    box-sizing: border-box; /* Incluye el padding en el cálculo del ancho */
+}
+
+/* Mostrar el texto y el botón al pasar el ratón sobre la tarjeta */
+.collection-2:hover .collection-2-txt {
+    opacity: 1; /* Muestra el texto y el botón al pasar el ratón */
+}
+
+/* Estilo para el precio tachado */
+.collection-2-txt p.tachado {
+    text-decoration: line-through; /* Línea horizontal en el medio del texto */
+    color: #888; /* Color gris claro para el texto tachado */
+}
+
+/* Estilo para el precio */
+.collection-2-txt p:last-of-type {
+    font-size: 20px; /* Tamaño de la fuente para el precio */
+    color: rgb(255, 255, 255); /* Color del precio */
+    font-weight: bold; /* Negrita para el precio */
+}
+
+/* Estilo para el botón */
+.collection-3-button {
+    background-color: #c79d82; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    /* border: none; */
+     /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 14px; /* Tamaño de la fuente del botón */
+    transition: background-color 0.3s ease; /* Animación para el hover */
+}
+
+.collection-3-button:hover {
+    background-color: #000000; /* Color de fondo al pasar el ratón sobre el botón */
+}
+
+
+
+
+
+.section-4 {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection-4 {
+    width: 100%;
+    /* max-width: 1200px; */
+    position: relative;
+}
+
+
+
+.collection-4-padre{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-imagen img {
+    width: 100%;
+    height: 100%;
+    /* max-height: 400px; */
+    object-fit: cover;
+    filter: brightness(0.4);
+}
+
+.contenedor-imagen{
+    width: 100%;
+    height: 100%;
+}
+.collection-4-txt {
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+}
+.collection-4-txt h2, h3{
+    color: #ffffff;
+}
+
+.carousel-controls {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 50%;
+    bottom: 30px;
+}
+
+.carousel-dot {
+    width: 12px;
+    height: 12px;
+    background-color: #333;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.carousel-dot.active {
+    background-color: #ff5722; /* Color activo */
+}

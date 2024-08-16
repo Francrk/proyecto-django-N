@@ -1,0 +1,620 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} Home {% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %} ">
+    <!-- <link rel="stylesheet" type="text/css" href="{% static 'css/consulta.css' %}"> -->
+
+     
+</head>
+<body>
+    
+    {% block content %}
+    
+        
+    
+    {% endblock %}
+    
+    
+    <!-- <head class="nav">
+
+        <div class="top-bar hidden-xs">
+            <div class="container">
+                <div class="top-bar-links flex-parent">
+                    <ul class="top-bar--currency-languaje">
+                        <li>
+                            "Currency"
+                            <a href="#">
+                                USD
+                                <i class="fa fa-angle-down">
+                                   
+                                </i>
+                            </a>
+                            <div class="currency-dropdow">
+                                <ul>
+
+                                    <li>
+                                        USA
+                                    </li>
+                                    <li>
+                                        EUR
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="languaje">
+
+                            "Languaje"
+                            <a href="#">
+                                "ENG"
+                                <i class="fa fa-angle-down"></i>
+                            </a>
+                            <div class="language-dropdown">
+
+                                <uL>
+
+                                    <li> <a href="#">Englies</a></li>
+                                    <li> <a href="#">Spanish</a></li>
+                                    <li> <a href="#">Francais</a></li>
+                                    <li> <a href="#">Germany</a></li>
+                                </uL>
+                            </div>
+
+                        </li>
+                    </ul>
+
+
+                    <ul class="top-bar-acc">
+                        <li class="top-bar-link"><a href="#">My Wishlist</a></li>
+                        <li class="top-bar-link"><a href="#">Newsletter</a></li>
+                        <li class="top-bar-link"><a href="#">Login</a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+    
+        </div>
+   
+</head> -->
+
+
+<header class="header">
+    <div class="cotenedor-principal">
+
+      <div class="barra-left">
+
+        <div class="barra-left-center">
+
+          <ul class="top-bar-currency-language">
+            <li>
+              Currency: <a href="#">USD</i></a>
+              <div class="currency-dropdown">
+                <ul class="menu1">
+                  <li><a href="#">USD</a></li>
+                  <li><a href="#">EUR</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="language">
+              Language: <a href="#">ENG<i class="fa-fa-angle-down"></i></a>
+              <div class="language-dropdown">
+                <ul class="menu">
+                  <li><a href="#">ENGLISH</a></li>
+                  <li><a href="#">SPANISH</a></li>
+                  <li><a href="#">GERMAN</a></li>
+                  <li><a href="#">CHINESE</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+
+      <div class="barra-right">
+        <div class="barra-right-center">
+          <ul class="top-bar-acc">
+            <li class="top-bar-link"><a href="#">My Wishlist</a></li>
+            <li class="top-bar-link"><a href="#">Newsletter</a></li>
+            <li class="top-bar-link"><a href="#">Login</a></li>
+          </ul>
+
+
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <nav class="nav">
+
+      <div class="logo">
+        <a href="#"><img src="static/img/icono-logo/logo_dark.png"></a>
+      </div>
+
+      <div class="sidebar">
+
+        <ul class="menu-horizontal">
+          <li><a class="titulo-menu" href="#"> <strong>HOME</strong> </a>
+
+            <ul class="menu-vertical">
+              <li><a href="curso-html.html">HOME</a></li>
+              <li><a href="#">HOME 2</a></li>
+              <li><a href="#">HOME 3</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="titulo-menu" href="#"> <strong> PAGES</strong></a>
+            <ul class="menu-vertical">
+              <li><a href="curso-html.html">ABOUT US</a></li>
+              <li><a href="#">CONTACT</a></li>
+              <li><a href="#">F.A.G</a></li>
+              <li><a href="#">404</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="titulo-menu" href="#"> <strong>BLOG</strong> </a>
+            <ul class="menu-vertical">
+              <li><a href="#">STANDAR</a></li>
+              <li><a href="#">SIMGLE POST</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a class="titulo-menu" href="#"> <strong>SHOP</strong> </a>
+            <ul class="menu-vertical megamenu">
+              <li>
+                <div class="mega_container">
+                  <div class="row">
+                    <div class="item">
+
+                      <ul>
+                        <li> <span>SHOP PAGES</span> </li>
+                        <li> <a href="#">CATALOG NO SIDEBAR</a></li>
+                        <li> <a href="#">CATALOG WITH SIDEBAR</a> </li>
+                        <li> <a href="#">SINGLE PRODUCT</a> </li>
+                        <li> <a href="#">CART </a> </li>
+                        <li> <a href="#">CHECKOUT</a> </li>
+
+
+                      </ul>
+
+
+                    </div>
+
+                    <div class="item">
+
+                      <ul>
+                        <li> <span>SHOP PAGES</span> </li>
+                        <li> <a href="#">CATALOG NO SIDEBAR</a></li>
+                        <li> <a href="#">CATALOG WITH SIDEBAR</a></li>
+                        <li> <a href="">SINGLE PRODUCT</a> </li>
+                        <li> <a href="">CART </a> </li>
+                        <li> <a href="">CHECKOUT</a> </li>
+
+
+                      </ul>
+
+
+                    </div>
+
+                    <div class="item">
+
+                      <ul>
+                        <li> <span>SHOP PAGES</span> </li>
+                        <li><a href="#">CATALOG NO SIDEBAR</a> </li>
+                        <li> <a href="">CATALOG WITH SIDEBAR</a> </li>
+                        <li> <a href="#"> SINGLE PRODUCT</a></li>
+                        <li><a href="#">CART </a> </li>
+                        <li> <a href="#">CHECKOUT </a></li>
+
+
+                      </ul>
+
+
+                    </div>
+
+
+
+                    <div class="item">
+
+                      <ul>
+                        <li> <span> SHOP PAGES</span> </li>
+                        <li> <a href="#">CATALOG NO SIDEBAR</a></li>
+                        <li><a href="#">CATALOG WITH SIDEBAR</a> </li>
+                        <li> <a href="#">SINGLE PRODUCT</a></li>
+                        <li> <a href="#">CART </a></li>
+                        <li> <a href="#">CHECKOUT</a> </li>
+
+
+                      </ul>
+
+
+                    </div>
+
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+
+
+          </li>
+
+
+
+
+
+          <li><a class="titulo-menu" href="#"> <strong>ELEMENTS</strong> </a>
+
+            <ul class="menu-vertical">
+              <li><a href="#">STANDAR</a></li>
+              <li><a href="#">SIMGLE POST</a></li>
+            </ul>
+      </div>
+      </li>
+
+      </ul>
+
+
+
+
+      <div class="icono_lista">
+
+        <ul class="lista-ultima">
+          <li><a href="#" class="lista-ultima-a">My accout</a></li>
+          <li> <a href="#"> <img class="lupa" src="static/img/icono-logo/lupa.png"></a></li>
+          <li> <a href="#"> <img class="lupa" src="static/img/icono-logo/carrito.png"></a></li>
+        </ul>
+
+      </div>
+
+
+
+    </nav>
+
+
+
+
+
+
+
+  </header>
+
+
+
+  <section class="section-1">
+    <div class="carrusel">
+      <div class="atras">
+        <img id="atras" src="static/img/carrucel/atras.svg" alt="atras" loading="lazy">
+      </div>
+
+      <div class="imagenes">
+        <div id="img">
+
+          <img class="img" src="static/img/carrucel/1.jpg" alt="imagen 1" loading="lazy">
+
+        </div>
+
+        <div id="texto" class="texto">
+          <h1>Proyecto 01</h1>
+          <p>klke</p>
+          <div class="texto-botones">
+            <button class="comprar">Shop Now</button>
+            <!-- <button class="vista">Ver</button> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="adelante" id="adelante">
+        <img src="static/img//carrucel/adelante.svg" alt="adelante" loading="lazy">
+      </div>
+
+      <div class="puntos" id="puntos"></div>
+
+    </div>
+
+  </section>
+
+  <section class="section-2">
+
+    <div class="collection-1">
+
+      <div class="collection-img">
+        <img src="static/img/shop/collection_1.jpg">
+
+      </div>
+
+      <div class="collection-txt">
+
+        <h2> FOR HER</h2>
+        <h3> Best Selling Deals</h3>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="collection-1">
+      <div class="collection-img">
+        <img src="static/img/shop/collection_2.jpg">
+      </div>
+      <div class="collection-txt">
+        <h2> ACCESSORIES</h2>
+        <h3> Hot Trends</h3>
+      </div>
+    </div>
+
+    <div class="collection-1">
+
+      <div class="collection-img">
+        <img src="static/img/shop/collection_3.jpg">
+
+      </div>
+
+
+      <div class="collection-txt">
+        <h2> FOR HIM</h2>
+        <h3> New Collection</h3>
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+  </section>
+
+
+
+  <div class="encabezado">
+    <div class="Encabezado-txt">
+      <span> Hot items of this year</span>
+      <h2><strong>TREDY PRODUCTS</strong> </h2>
+
+
+      <div class="raya1">
+        <hr class="raya">
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <section class="section-3">
+
+    <div class="collection-2">
+      <div class="collection-2-img">
+        <img src="static/img/shop/shop_item_1.jpg">
+
+      </div>
+
+
+      <div class="collection-2-txt">
+        <p> WOMEN </p>
+        <h3> Drawstring Dress</h3>
+        <p class="tachado"> $730.00</p>
+        <p>$ 399.99</p>
+        <button class="collection-3-button">QUICKVIEW</button>
+
+      </div>
+
+    </div>
+
+    <div class="collection-2">
+      <div class="collection-2-img">
+        <img src="static/img/shop/shop_item_2.jpg">
+
+      </div>
+
+
+      <div class="collection-2-txt">
+        <p> Accessories </p>
+        <h3> MESH SADAL</h3>
+
+        <p>$ 190.00</p>
+        <button class="collection-3-button">QUICKVIEW</button>
+
+      </div>
+    </div>
+
+
+    <div class="collection-2">
+      <div class="collection-2-img">
+        <img src="static/img/shop/shop_item_3.jpg">
+
+      </div>
+
+
+      <div class="collection-2-txt">
+        <p> Accessories </p>
+        <h3> MESH SADAL</h3>
+
+        <p>$ 190.00</p>
+        <button class="collection-3-button">QUICKVIEW</button>
+
+      </div>
+    </div>
+
+
+    <div class="collection-2">
+      <div class="collection-2-img">
+        <img src="static/img/shop/shop_item_4.jpg">
+
+      </div>
+
+
+      <div class="collection-2-txt">
+        <p> Accessories </p>
+        <h3> MESH SADAL</h3>
+
+        <p>$ 190.00</p>
+        <button class="collection-3-button">QUICKVIEW</button>
+
+      </div>
+    </div>
+
+
+    <div class="collection-2">
+      <div class="collection-2-img">
+        <img src="static/img/shop/shop_item_5.jpg">
+
+      </div>
+
+
+      <div class="collection-2-txt">
+        <p> Accessories </p>
+        <h3> MESH SADAL</h3>
+
+        <p>$ 190.00</p>
+        <button class="collection-3-button">QUICKVIEW</button>
+
+      </div>
+    </div>
+
+
+    <div class="collection-2">
+      <div class="collection-2-img">
+        <img src="static/img/shop/shop_item_6.jpg">
+
+      </div>
+
+
+      <div class="collection-2-txt">
+        <p> Accessories </p>
+        <h3> MESH SADAL</h3>
+
+        <p>$ 190.00</p>
+        <button class="collection-3-button">QUICKVIEW</button>
+
+      </div>
+    </div>
+
+
+
+    <div class="collection-2">
+      <div class="collection-2-img">
+        <img src="static/img/shop/shop_item_7.jpg">
+
+      </div>
+
+
+      <div class="collection-2-txt">
+        <p> Accessories </p>
+        <h3> MESH SADAL</h3>
+
+        <p>$ 190.00</p>
+        <button class="collection-3-button">QUICKVIEW</button>
+
+      </div>
+    </div>
+
+
+
+
+
+    <div class="collection-2">
+      <div class="collection-2-img">
+        <img src="static/img/shop/shop_item_8.jpg">
+
+      </div>
+
+
+      <div class="collection-2-txt">
+        <p> Accessories </p>
+
+        <h3> MESH SADAL</h3>
+
+        <p>$ 190.00</p>
+        <button class="collection-3-button">QUICKVIEW</button>
+
+      </div>
+    </div>
+
+
+
+  </section>
+
+
+  
+  <section class="section-4">
+    <div class="collection-4">
+        <div class="collection-4-padre">
+          <div class="contenedor-imagen">
+            <img src="static/img/testimonial/testimonial_bg.jpg" alt="Testimonial Background"> 
+          </div>
+            <div class="collection-4-txt">
+                <h2>HAPPY CLIENTS</h2>
+                
+                <h3 id="testimonial-text">
+                    I’m amazed, I should say thank you so much for your awesome template. Design is so good and neat, 
+                    every detail has been taken care of. This team is really amazing and talented! I will work only with this agency.
+                
+                  </h3>
+                  
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <span class="carousel-dot" data-index="0"></span>
+            <span class="carousel-dot" data-index="1"></span>
+            <span class="carousel-dot" data-index="2"></span>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="static\js\js.js"></script>
+
+
+
+
+</body>
+</html> 
+
+
+
+<!-- <div class="contenedor-padre">
+
+    <div class="contenedor-sidebar">
+
+        {% include "conponents\sidebar.html" %}
+    </div>
+    <div class="contenedor-cuerpo">
+        kkkkkkkkkkkkkkkkkkkkk
+        
+    </div>
+    
+    
+    
+</div> -->
